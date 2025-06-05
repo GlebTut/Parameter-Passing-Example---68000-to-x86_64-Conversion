@@ -1,0 +1,73 @@
+# Compiled Object Files
+*.o
+*.obj
+*.elf
+
+# Executables
+param_passing_x86_64
+test_standalone
+test_with_asm
+*.exe
+*.out
+*.app
+
+# Generated Assembly Files
+register_adder_only.asm
+
+# Debug Files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.ilk
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+Thumbs.db
+
+# Build Directories
+build/
+dist/
+*.build/
+
+# Testing Output
+*.gcov
+*.gcda
+*.gcno
+test-results/
+coverage/
+
+# Core Dumps
+core
+core.*
+*.core
+
+# Backup Files
+*.bak
+*.backup
+*.old
+
+# Documentation Build
+docs/build/
+*.pdf (if generated)
+
+# Package Files
+*.tar.gz
+*.zip
+*.7z
+
+# Local Configuration
+.env
+local.properties
+config.local.*
